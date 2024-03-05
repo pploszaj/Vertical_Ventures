@@ -5,10 +5,25 @@
     font-family: 'Quicksand';
 }
 
-#mainImg {
+main {
+    position: relative;
+}
+#hero {
     height: 92vh;
     width: 100vw;
     object-fit: cover;
+    filter: brightness(80%);
+}
+
+#hero_heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #dad7cd;
+    font-size: 100px;
+    text-align: center;
+    width: 100vw;
 }
 
 #nav {
@@ -76,3 +91,44 @@ hr {
     text-align: center;
 }
 
+#aboutus button {
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    background-color: #344e41;
+    color: #dad7cd;
+    border: none;
+    border-radius: 4px;
+}
+#amenities_section {
+    display: flex;
+    height: 100vh;
+}
+
+#amenities {
+    width: 50vw;
+    background-color: #344e41;
+    color: #dad7cd;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#amenities ul {
+    margin-top: 20px;
+    text-align:left;
+    list-style: circle;
+    font-size: 20px;
+}
+
+#amenities_section img {
+    width: 50vw;
+    object-fit: cover;
+}
+
+footer {
+    height: 60vh;
+}
