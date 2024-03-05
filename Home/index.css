@@ -2,4 +2,77 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand';
 }
+
+#mainImg {
+    height: 92vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#nav {
+    height: 8vh;
+    display: flex;
+    background-color: #344e41;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #dad7cd;
+    font-size: 16px;
+}
+
+#nav h1 {
+    color: black;
+}
+
+#links {
+    display: flex;
+    gap: 30px;
+}
+
+#ingymsection {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingym {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+hr {
+    width: 90vw;
+    margin: auto;
+}
+
+#aboutussection{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65vw;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    line-height: 32px;
+    text-align: center;
+}
+
