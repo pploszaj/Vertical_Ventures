@@ -42,6 +42,7 @@ main {
 
 #nav h1 {
     color: black;
+    font-family: sans-serif;
 }
 
 #links {
@@ -129,6 +130,78 @@ hr {
     object-fit: cover;
 }
 
+#community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 90vh;
+}
+
+#community p {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#community-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100vw;
+}
+
+#community-container img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+}
+
+#location {
+    height: 80vh;
+    background-color: #dad7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#visitus p {
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+#visitus h1 {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
 footer {
-    height: 60vh;
+    height: 40vh;
+    width: 100vw;
+    background-color: #3a5a40;
+    color: #dad7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    font-size: 18px;
+}
+
+#address{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
