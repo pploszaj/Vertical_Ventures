@@ -75,22 +75,39 @@ hr {
 
 #aboutussection{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #aboutus {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     width: 65vw;
     font-size: 18px;
     justify-content: center;
     align-items: center;
     line-height: 32px;
     text-align: center;
+}
+
+.desc {
+    transform: translateX(100vw);
+    transition: transform 0.4s ease;
+}
+.desc.btn {
+    transform: translateX(-100vw);
+    transition: transform 0.4s ease;
+}
+.desc.show {
+    transform: translateX(0);
+}
+
+.desc.btn.show {
+    transform: translateX(0);
 }
 
 #aboutus button {
