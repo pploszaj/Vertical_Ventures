@@ -5,59 +5,10 @@
     font-family: 'Quicksand';
 }
 
-#lefthalf {
-    position: relative;
+body {
     background-color: #dad7cd;
-    display: block;
-    height: 52vh;
-    width:50vw;
-}
-
-#righthalf {
-    position: relative;
-    background-color: #dad7cd;
-    display: block;
-    height: 52vh;
-    width:50vw;
-
-}
-
-#divide {
-    display:flex;
-}
-
-#first{
-    width: 12vw;
-}
-
-#last {
-    width: 12vw;
-}
-
-#mail {
-    width: 24vw;
-}
-
-#message {
-    width: 24vw;
-}
-
-main h1{
-    display: inline;
-
-}
-
-#fullForm::before{
-    content:"\a";
-    white-space:pre;
-    width: 50vw;
-    color: #dad7cd;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    place-items: center;
 }
 
 #nav {
@@ -85,22 +36,96 @@ main h1{
 }
 
 
-
-fieldset{
-    border:none;
+#ContactBox {
+    background-image:url('../assets/contact.jpg');
+    background-size: 100%;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+		0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+	position: relative;
+    margin: 2% 20%;
+    padding: 5% 2%;
 }
-fieldset div{
-    display: inline-block;
+
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
-label::after{
+#BoxContent {
+    height: 100%;
+	position: relative;
+	top: 0;
+}
+
+.form_title {
+    color: white;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 1.25rem;
+}
+
+
+.forminput {
+    color:white;
+    align-items: center;   
+}
+
+label::after {
     content:"\a";
     white-space:pre;
 }
 
+input {
+    background-color: white;
+	border: none;
+	padding: 0.9rem 0.9rem;
+	margin: 0.5rem 0;
+	width: 65%;
+}
+
+#message {
+    width: 65%;
+}
+
+button {
+    background-color: #344e41;
+	border-radius: 20px;
+	border: 1px solid;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+    margin-top: 1.5rem;
+    align-items:center;
+    color:white;
+}
+
+hr {
+    width: 90vw;
+    margin: auto;
+    border: 1px solid #3a5a40
+}
+
+section p {
+    text-align: left;
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h2, #coaches {
+    margin-left: 20%;
+}
+
+
+
 footer {
-    height: 40vh;
-    width: 100vw;
+    height: 35.2vh; 
     background-color: #3a5a40;
     color: #dad7cd;
     display: flex;

@@ -30,71 +30,73 @@
 </nav>
 
 
-<div id="divide">
+<div id="ContactBox">     
 
-<div id="lefthalf">
-
-<h1>Contact Us</h1>
-
+    <div id="BoxContent">
 
 <!--
-   Contact Us waiver
-   -->
+  Contact Us waiver
+  -->
 
-    <div id="fullForm">
-        <form action="https://google.com/" method="get">
-            <fieldset>
-                <div id="Fname">
-                    <label for="first">First Name</label>
-                    <input type ="text" name="first" id="first">
+            <form action="https://google.com/" method="get" class="form">
+
+                <h1 class="form_title">Contact Us</h1>
+           
+               <div class="forminput">
+                   <label for="first">First Name</label>
+                   <input type ="text" name="first" id="first">
+               </div>
+
+
+               <div class="forminput">
+                   <label for="last">Last Name</label>
+                   <input type = "text" name="last" id="last">
+               </div>
+
+
+                <div class="forminput">
+                    <label for="mail">Email</label>
+                    <input type ="text" name="mail" id="mail">
                 </div>
 
-                <div id="Lname">
-                    <label for="last">Last Name</label>
-                    <input type = "text" name="last" id="last">
+
+                <div class="forminput">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
                 </div>
 
-            </fieldset>
 
-            <div id="topForm">
-                <label for="mail">Email</label>
-                <input type ="text" name="mail" id="mail">
-            </div>
+                <div class="forminput">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Message here" rows="7"></textarea>
+                </div>
 
-            <div id="bottomForm">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Message here" rows="7"></textarea>
-            </div>
-
-            <button type="button">Send</button>
-        </form>
+                <button type="button">Send</button>
+            </form>
+        
     </div>
-    </div>
+</div>
 
-<div id="righthalf">
+<hr>
 
-<h2>Location</h2>
-<p> 57th Ave. & 83rd St<br>
-    Queens, NY 11373 </p>
+<section>
 
-
-<p> <u>(123) 456 - 7890 </u> <br>
-    email@email.com <br>
-
-
-</p>
 <h2>Coaches</h2>
-<p> Kevin Arriaga <br>
-
-
-    Patryk Ploszaj
-</p>
-
-</div>
-</div>
+    <p id="coaches"> Kevin Arriaga <br>
+        <u>(123) 456 - 7890 </u> <br>
+        email@email.com <br>
+    
+        <br>
+        Patryk Ploszaj <br>
+        <u>(123) 456 - 7890 </u> <br>
+        email@email.com <br>
+        <br>
+    </p>
+    </section>
 
 <!--
-   footer goes here
+   footer goes here 
+   changed footer height due to sizing issues
    -->
 <footer id="footer">
     <div id="address">
