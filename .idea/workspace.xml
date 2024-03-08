@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f2aaa7b-1b97-42b4-8709-521889929989" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Contact/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstVisit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/firstVisit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVisit/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVisit/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVisit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVisit/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +54,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709651966051</updated>
       <workItem from="1709651967132" duration="4912000" />
-      <workItem from="1709785148703" duration="16201000" />
+      <workItem from="1709785148703" duration="30198000" />
     </task>
     <servers />
   </component>

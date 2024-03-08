@@ -5,9 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Visit</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+        @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+    </style>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+
+<nav class="nav">
+    <div id="links">
+        <a href="../FirstVisit/index.html">First Visit</a>
+        <a href="../Membership/index.html">Membership</a>
+    </div>
+    <div>
+        <a href="index.html"><h1>VERTICAL VENTURES</h1></a>
+    </div>
+    <div>
+        <a href="../Contact/index.html">Contact Us</a>
+    </div>
+</nav>
+
+<main>
+    <img src="../assets/firstVisit.jpg" alt="Really Cool Climbing Picture" id="mainphoto">
+    <h1 id="maintext">Welcome to <br> Vertical Ventures!</h1>
+</main>
+
+<section id="introduction">
+    <h2>New to Climbing?</h2>
+    <p>
+        You don’t need to have any experience to get started and we have climbs for all skill levels. <br> <br>
+    </p>
+
+    <p>
+        Bouldering is one of the main disciplines of climbing. You don’t need a rope, harness, or belayer—the walls aren’t very tall and are built over a padded floor.
+        Free from the need of specialized knowledge or equipment, bouldering is a beautifully simple, social, and fun way to climb.
+    </p>
+
+</section>
+
+<div id="waiver">
+    <h3> <br> Fill out waiver here!</h3>
+    <a href="#popup"><button type="button">Waiver</button></a>
+
+
+    <div id="popup" class="overlay">
+        <div class="msa-popup">
+            <h2>Rock Climbing Waiver</h2>
+            <a class="close" href="#">×</a>
+            <div class="content">
+                <br> By filling out this form, you legally cannot sue us if you die. <br> <br>
+                <div id="outer">
+
+                    <div class="forminput">
+                        <label for="Fname">First Name</label>
+                        <input type ="text" name="Fname" id="Fname">
+                    </div>
+
+                    <div class="forminput">
+                        <label for="Lname">Last Name</label>
+                        <input type ="text" name="Lname" id="Lname">
+                    </div>
+
+                    <div class="forminput">
+                        <label for="mail">Email</label>
+                        <input type ="text" name="mail" id="mail">
+                    </div>
+
+
+
+
+
+
+                    <div class="buttons"><button type="submit" class="msgBtn" onClick="return false;" >Submit</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<script src="index.js"></script>
+
 </body>
 </html>
