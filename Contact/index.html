@@ -1,120 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-        @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
     </style>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-<!--
-   Add nav bar here
-   -->
-<nav id="nav">
-    <div id="links">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div id="links">
         <a href="../FirstVisit/index.html">First Visit</a>
-        <a href="../Membership/index.html">Membership</a>
-    </div>
-    <div>
-        <a href="index.html"><h1>VERTICAL VENTURES</h1></a>
-    </div>
-    <div>
+        <a class="mem" href="../Membership/index.html">Membership</a>
+      </div>
+      <div>
+        <a href="../Home/index.html"><h1>VERTICAL VENTURES</h1></a>
+      </div>
+      <div>
         <a href="../Contact/index.html">Contact Us</a>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-
-<div id="ContactBox">     
-
-    <div id="BoxContent">
-
-<!--
+    <div id="ContactBox">
+      <div id="BoxContent">
+        <!--
   Contact Us waiver
   -->
 
-            <form action="https://google.com/" method="get" class="form">
+        <form action="https://google.com/" method="get" class="form">
+          <h1 class="form_title">Contact Us</h1>
 
-                <h1 class="form_title">Contact Us</h1>
-           
-               <div class="forminput">
-                   <label for="first">First Name</label>
-                   <input type ="text" name="first" id="first">
-               </div>
+          <div class="forminput">
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" />
+          </div>
 
+          <div class="forminput">
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" />
+          </div>
 
-               <div class="forminput">
-                   <label for="last">Last Name</label>
-                   <input type = "text" name="last" id="last">
-               </div>
+          <div class="forminput">
+            <label for="mail">Email</label>
+            <input type="text" name="mail" id="mail" />
+          </div>
 
+          <div class="forminput">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" />
+          </div>
 
-                <div class="forminput">
-                    <label for="mail">Email</label>
-                    <input type ="text" name="mail" id="mail">
-                </div>
+          <div class="forminput">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message here"
+              rows="7"
+            ></textarea>
+          </div>
 
-
-                <div class="forminput">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject">
-                </div>
-
-
-                <div class="forminput">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Message here" rows="7"></textarea>
-                </div>
-
-                <button type="button">Send</button>
-            </form>
-        
+          <button type="button">Send</button>
+        </form>
+      </div>
     </div>
-</div>
 
-<hr>
+    <hr />
 
-<section>
+    <section>
+      <h2>Coaches</h2>
+      <p id="coaches">
+        Kevin Arriaga <br />
+        <u>(123) 456 - 7890 </u> <br />
+        email@email.com <br />
 
-<h2>Coaches</h2>
-    <p id="coaches"> Kevin Arriaga <br>
-        <u>(123) 456 - 7890 </u> <br>
-        email@email.com <br>
-    
-        <br>
-        Patryk Ploszaj <br>
-        <u>(123) 456 - 7890 </u> <br>
-        email@email.com <br>
-        <br>
-    </p>
+        <br />
+        Patryk Ploszaj <br />
+        <u>(123) 456 - 7890 </u> <br />
+        email@email.com <br />
+        <br />
+      </p>
     </section>
 
-<!--
+    <!--
    footer goes here 
    changed footer height due to sizing issues
    -->
-<footer id="footer">
-    <div id="address">
+    <footer id="footer">
+      <div id="address">
         <address>12-34 56th Dr.</address>
         <address>Long Island City, NY 10101</address>
         <p>(718)-123-4567</p>
-    </div>
-    <div id="email">
+      </div>
+      <div id="email">
         <p>Email us</p>
         <div>
-            <p>Monday-Friday</p>
-            <p>6AM-12AM</p>
+          <p>Monday-Friday</p>
+          <p>6AM-12AM</p>
         </div>
         <div>
-            <p>Saturday + Sunday</p>
-            <p>8AM - 11PM</p>
+          <p>Saturday + Sunday</p>
+          <p>8AM - 11PM</p>
         </div>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>

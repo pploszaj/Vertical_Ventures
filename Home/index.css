@@ -9,7 +9,7 @@ main {
     position: relative;
 }
 #hero {
-    height: 92vh;
+    height: 100vh;
     width: 100vw;
     object-fit: cover;
     filter: brightness(80%);
@@ -26,19 +26,6 @@ main {
     width: 100vw;
 }
 
-.nav {
-    height: 8vh;
-    display: flex;
-    background-color: #344e41;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    transition: all .3s ease-in-out;
-}
 
 .nav.active {
     background-color: #dad7cd;
@@ -58,7 +45,7 @@ main {
 }
 
 .nav a:hover {
-    color:#344e41;
+    color:black;
 }
 
 .nav h1 {
@@ -68,7 +55,40 @@ main {
 
 #links {
     display: flex;
-    gap: 30px;
+}
+
+.mem {
+    padding-left: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 8vh;
+    background-color: #344e41;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    transition: all .3s ease-in-out;
+}
+
+.nav::before,
+.nav::after {
+    content: "";
+    flex: 1;
+}
+
+#links,
+nav > div:last-child {
+    flex: 1;
+}
+
+nav > div:nth-child(2) {
+    flex: 4; 
+    text-align: center;
 }
 
 #ingymsection {
