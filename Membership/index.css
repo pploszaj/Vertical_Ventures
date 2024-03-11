@@ -147,7 +147,333 @@ section div ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Sign-up {
+    background-color: #344e41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    color: #dad7cd;
+}
+
+
+
+#membership-button {
+    background-color: #dad7cd;
+    border-radius: 20px;
+    border: 1px solid #dad7cd;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.9rem 4rem;
+    align-items:center; 
+    color:#344e41;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.Signup-popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: darkgray;
+    border-radius: 5px;
+    width: 65%;
+    position: relative;
+    transition: all 3s ease-in-out;
+}
+
+.Signup-popup h2 {
+    margin-top: 0;
+    color: #344e41;
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+.Signup-popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 50ms;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.Signup-popup .content {
+    max-height: 30%;
+    overflow: auto;
+    font-size:.9em;
+    font-family: 'Quicksand';
+}
+
+.outer {
+    width:100%;
+    text-align: center;
+
+}
+
+.forminput > label::after{
+    content:"\a";
+    white-space:pre;
+}
+
+input {
+    background-color: white;
+	border: none;
+	padding: 0.9rem 0.9rem;
+	margin: 0.5rem 0;
+	width: 30%;
+}
+
+#Sign-up #popup {
+    color: black;
+}
+
+select{
+    position: relative;
+    height: 3vh;
+    width: 10vw;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+}
+
+ label::after {
+    content:"\a";
+    white-space:pre;
+}
+
+#submit {
+    background-color: #344e41;
+	border-radius: 20px;
+	border: 0px solid;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pricing-list {
+    margin-top:0;
+    padding: 10vh;
+    background-color: #344e41;
+}
+
+.pricing-table {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 500px;
+    padding-inline: 5vw;
+    margin-inline: auto;
+    /* margin-block: 40px; */
+    /* @media screen and (min-width: 920px) { */
+      max-width: 1400px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      color: #344e41;
+    /* } */
+    .plan {
+      background-color: #dad7cd;
+      padding: 2rem;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      /* @media screen and (max-width: 920px) {
+        &:not(:last-of-type) {
+          margin-bottom: 40px;
+        }
+      } */
+      .name {
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 18px;
+      }
+      .price {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 30px;
+        sub {
+          position: static;
+          font-size: 1.5rem;
+        }
+      }
+      &.annual .price {
+        font-size: 2.5rem;
+      }
+
+      .features {
+        margin-block: 30px;
+        li {
+          margin-bottom: 15px;
+          line-height: 1.5;
+          
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Classtime {
+    padding-top: 5vh;
     background-color: #dad7cd;
     padding-bottom: 10vh;
 }
@@ -158,46 +484,47 @@ section div ul {
 
 
 
-.rwd-table {
+.table {
     margin: auto;
+    margin-top: 5vh;
     min-width: 300px;
     max-width: 100%;
     border-collapse: collapse;
 }
 
-.rwd-table tr:first-child {
+.table tr:first-child {
     border-top: none;
     background: #344e41;
     color: #fff;
 }
 
-.rwd-table tr {
+.table tr {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     background-color: #f5f9fc;
 }
 
-.rwd-table tr:nth-child(odd):not(:first-child) {
+.table tr:nth-child(odd):not(:first-child) {
     background-color: #ebf3f9;
 }
 
-.rwd-table th {
+.table th {
     display: none;
 }
 
-.rwd-table td {
+.table td {
     display: block;
 }
 
-.rwd-table td:first-child {
+.table td:first-child {
     margin-top: .5em;
 }
 
-.rwd-table td:last-child {
+.table td:last-child {
     margin-bottom: .5em;
 }
 
-.rwd-table td:before {
+.table td:before {
     content: attr(data-th) ": ";
     font-weight: bold;
     width: 120px;
@@ -205,55 +532,51 @@ section div ul {
     color: #000;
 }
 
-.rwd-table th,
-.rwd-table td {
+.table th,
+.table td {
     text-align: left;
 }
 
-.rwd-table {
+.table {
     color: #333;
     border-radius: .4em;
     overflow: hidden;
 }
 
-.rwd-table tr {
+.table tr {
     border-color: #bfbfbf;
 }
 
-.rwd-table th,
-.rwd-table td {
+.table th,
+.table td {
     padding: .5em 1em;
 }
-@media screen and (max-width: 601px) {
-    .rwd-table tr:nth-child(2) {
-        border-top: none;
-    }
-}
-@media screen and (min-width: 600px) {
-    .rwd-table tr:hover:not(:first-child) {
+
+
+ .table tr:hover:not(:first-child) {
         background-color: #d8e7f3;
-    }
-    .rwd-table td:before {
+}
+.table td:before {
         display: none;
-    }
-    .rwd-table th,
-    .rwd-table td {
+}
+.table th,
+.table td {
         display: table-cell;
         padding: .25em .5em;
-    }
-    .rwd-table th:first-child,
-    .rwd-table td:first-child {
+}
+.table th:first-child,
+.table td:first-child {
         padding-left: 0;
-    }
-    .rwd-table th:last-child,
-    .rwd-table td:last-child {
+}
+.table th:last-child,
+.table td:last-child {
         padding-right: 0;
-    }
-    .rwd-table th,
-    .rwd-table td {
+}
+.table th,
+    .table td {
         padding: 1em !important;
     }
-}
+
 
 
 
