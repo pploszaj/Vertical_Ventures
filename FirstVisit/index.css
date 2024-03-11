@@ -112,7 +112,7 @@ h3 {
     color: #242526;
 }
 
-button {
+#waiver-button {
     background-color: #344e41;
     border-radius: 20px;
     border: 1px solid;
@@ -127,23 +127,12 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    /*background: rgba(0,0,0,0.51);*/
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
@@ -153,7 +142,7 @@ button {
     opacity: 1;
 }
 
-.msa-popup {
+.waiver-popup {
     margin: 70px auto;
     padding: 20px;
     background: #fff;
@@ -163,12 +152,12 @@ button {
     transition: all 3s ease-in-out;
 }
 
-.msa-popup h2 {
+.waiver-popup h2 {
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
 }
-.msa-popup .close {
+.waiver-popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -178,14 +167,13 @@ button {
     color: #333;
 }
 
-.msa-popup .content {
+.waiver-popup .content {
     max-height: 30%;
     overflow: auto;
     font-size:.9em;
 }
 
-.outer
-{
+.outer {
     width:100%;
     text-align: center;
 
@@ -199,3 +187,104 @@ div > label::after {
 input {
     width: 30%;
 }
+
+
+.faq-container {
+    margin: 0 auto;
+}
+
+.faq {
+    border-bottom: 1px solid #344e41;
+    transition: 0.3s ease;
+    padding: 20px 15px;
+    font-weight: 400;
+    padding-bottom: 65px;
+}
+
+.faq p {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+button .faq-title {
+    font-size: 180%;
+}
+
+.faq-text {
+    margin-top: 80px;
+    display:none;
+}
+
+.faq.active .faq-text {
+    display: block;
+}
+
+i {
+    font-size: 140%;
+}
+
+.faq-toggle {
+    background-color: transparent;
+    border: 0;
+    font-size: 105%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.faq-toggle .fa-chevron-up {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-chevron-up {
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+
+footer {
+    height: 40vh;
+    width: 100vw;
+    background-color: #3a5a40;
+    color: #dad7cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    font-size: 18px;
+}
+
+#address{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#email a {
+    color: #dad7cd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

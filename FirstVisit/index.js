@@ -28,3 +28,19 @@ window.addEventListener('scroll', fixNav);
 const description = document.querySelector('.desc');
 const description_btn = document.querySelector('.desc.btn');
 window.addEventListener('scroll', aboutAnimation);
+
+
+
+
+
+
+
+
+const toggles = document.querySelectorAll('.faq-toggle')
+
+toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+    })
+
+})
