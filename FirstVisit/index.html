@@ -11,6 +11,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
     </style>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     <nav class="nav">
@@ -58,10 +59,10 @@
         <br />
         Fill out waiver here!
       </h3>
-      <a href="#popup"><button type="button">Waiver</button></a>
+      <a href="#popup"><button type="button" id="waiver-button">Waiver</button></a>
 
       <div id="popup" class="overlay">
-        <div class="msa-popup">
+        <div class="waiver-popup">
           <h2>Rock Climbing Waiver</h2>
           <a class="close" href="#">×</a>
           <div class="content">
@@ -95,6 +96,88 @@
         </div>
       </div>
     </div>
+
+
+    <section id="FAQ">
+      <h2> <br> Frequently Asked Questions</h2>
+
+      <div class="faq-container">
+        <div class="faq">
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-up"></i>
+            <span class="faq-title">
+              &nbsp; &nbsp; Why should you rock climb?
+            </span>
+          </button>
+          <p class="faq-text">
+            It is a great workout.
+          </p>
+        </div>
+
+
+        <div class="faq">
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-up"></i>
+            <span class="faq-title">
+              &nbsp; &nbsp; Is it safe to fall?
+            </span>
+          </button>
+          <p class="faq-text">
+            &nbsp; &nbsp; The floors are crazy soft. No one has ever died climbing rocks.
+          </p>
+        </div>
+
+        <div class="faq">
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-up"></i>
+            <span class="faq-title">
+            &nbsp; &nbsp; What if I don't have gear?
+          </span>
+          </button>
+          <p class="faq-text">
+            &nbsp; &nbsp; Vertical Ventures will gladly give out free climbing shoes to anyone who asks.
+          </p>
+        </div>
+
+        <div class="faq">
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-up"></i>
+            <span class="faq-title">
+            &nbsp; &nbsp; What if I don't have any arms?
+          </span>
+          </button>
+          <p class="faq-text">
+            &nbsp; &nbsp; Good luck with that one.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <footer id="footer">
+      <div id="address">
+        <address>12-34 56th Dr.</address>
+        <address>Long Island City, NY 10101</address>
+        <p>(718)-123-4567</p>
+      </div>
+      <div id="email">
+        <a href="mailto:patrickploszaj07@gmail.com">Email us</a>
+        <div>
+          <p>Monday-Friday</p>
+          <p>6AM-12AM</p>
+        </div>
+        <div>
+          <p>Saturday + Sunday</p>
+          <p>8AM - 11PM</p>
+        </div>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

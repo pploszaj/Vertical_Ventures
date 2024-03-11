@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f2aaa7b-1b97-42b4-8709-521889929989" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FirstVisit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/firstVisit.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstVisit/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVisit/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstVisit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVisit/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Membership/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Membership/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Membership/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Membership/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Kbranch",
-    "last_opened_file_path": "/Users/kevinarriaga/Desktop/Project/Vertical_Ventures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Kbranch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kevinarriaga/Desktop/Project/Vertical_Ventures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -75,7 +73,9 @@
       <option name="presentableId" value="Default" />
       <updated>1709651966051</updated>
       <workItem from="1709651967132" duration="4912000" />
-      <workItem from="1709785148703" duration="30198000" />
+      <workItem from="1709785148703" duration="30899000" />
+      <workItem from="1710138618466" duration="10648000" />
+      <workItem from="1710178847965" duration="4122000" />
     </task>
     <servers />
   </component>
