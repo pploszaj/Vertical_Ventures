@@ -30,6 +30,7 @@
 .nav h1 {
     color: black;
     font-family: sans-serif;
+    letter-spacing: 10px;
 }
 
 #links {
@@ -90,6 +91,17 @@ main {
     font-size: 100px;
     text-align: center;
     width: 100vw;
+}
+
+
+#introduction h2{
+    padding-top: 2vh;
+}
+
+#introduction p {
+    font-size: 22px;
+    width: 70vw;
+    /* margin-right: 18px; */
 }
 
 section h2 {
@@ -210,6 +222,11 @@ input {
 }
 
 
+#FAQ {
+    padding-bottom: 4vh;
+}
+
+
 .faq-container {
     margin: 0 auto;
 }
@@ -220,6 +237,7 @@ input {
     padding: 20px 15px;
     font-weight: 400;
     padding-bottom: 65px;
+
 }
 
 .faq p {
