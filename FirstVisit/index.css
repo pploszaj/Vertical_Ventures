@@ -99,7 +99,7 @@ section h2 {
 
 section p {
     margin-top: 1%;
-    color: grey;
+    color: black;
 }
 
 section, #waiver {
@@ -112,10 +112,12 @@ h3 {
     color: #242526;
 }
 
+
+
 #waiver-button {
     background-color: #344e41;
     border-radius: 20px;
-    border: 1px solid;
+    border: 1px solid black;
     cursor: pointer;
     font-size: 0.8rem;
     font-weight: bold;
@@ -145,7 +147,7 @@ h3 {
 .waiver-popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: darkgray;
     border-radius: 5px;
     width: 65%;
     position: relative;
@@ -186,6 +188,25 @@ div > label::after {
 
 input {
     width: 30%;
+    background-color: white;
+	border: none;
+	padding: 0.9rem 0.9rem;
+	margin: 0.5rem 0;
+}
+
+
+#submit {
+    background-color: #344e41;
+	border-radius: 20px;
+	border: 0px solid;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    color: white;
 }
 
 
@@ -218,6 +239,7 @@ button .faq-title {
 
 .faq.active .faq-text {
     display: block;
+    color: black;
 }
 
 i {
