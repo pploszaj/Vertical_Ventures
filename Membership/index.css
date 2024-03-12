@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #b5ac8f;
+}
+
 .nav.active {
     background-color: #dad7cd;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
@@ -327,6 +331,7 @@ sub {
 #Classtime {
     background-color: #b5ac8f;
     height: 80vh;
+    margin-bottom: 15vh;
 }
 
 #Classtime h2 {
@@ -346,7 +351,7 @@ sub {
     max-width: 100%;
     border-collapse: collapse;
     height: 60vh;
-    padding-bottom: 20vh;
+    padding-bottom: 30vh;
 }
 
 .table tbody tr th {
