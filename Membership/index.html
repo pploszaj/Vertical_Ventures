@@ -90,17 +90,14 @@
       </div>
     </section>
 
-
-
-
-
-
-
     <div id="Sign-up">
-      <h2>Sign up Today!</h2>
-  
+      <div class="sign-up-container">
+        <h2>Sign up Today!</h2>
 
-      <a href="#popup" id="a-button"><button type="button" id="membership-button">Sign Up!</button></a>
+        <a href="#popup" id="a-button"
+          ><button type="button" id="membership-button">Sign Up!</button></a
+        >
+      </div>
 
       <div id="popup" class="overlay">
         <div class="Signup-popup">
@@ -132,20 +129,22 @@
                 <input type="text" name="payment" id="payment" />
               </div>
 
-            
               <div class="memberinput" id="select-button">
                 <label for="member-type">Membership type</label>
                 <select id="member-type">
-                  <option value="Day Pass">Day Pass </option>
+                  <option value="Day Pass">Day Pass</option>
                   <option value="Monthly">Monthly</option>
                   <option value="Annual">Annual</option>
-                  
                 </select>
               </div>
-              
 
               <div class="buttons">
-                <button id="submit" type="submit" class="msgBtn" onClick="return false;">
+                <button
+                  id="submit"
+                  type="submit"
+                  class="msgBtn"
+                  onClick="return false;"
+                >
                   Submit
                 </button>
               </div>
@@ -153,18 +152,8 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
     </div>
     <div id="pricing-list">
-
       <div class="pricing-table">
         <div class="plan starter">
           <h2 class="name">Day Pass</h2>
@@ -176,7 +165,7 @@
             <li>Unlimited chalk</li>
           </ul>
         </div>
-        
+
         <div class="plan pro">
           <h2 class="name">Monthly</h2>
           <div class="price">$3.99 <sub>/ month</sub></div>
@@ -187,7 +176,7 @@
             <li>Lead climbing gear included</li>
           </ul>
         </div>
-        
+
         <div class="plan annual">
           <h2 class="name">Annual</h2>
           <div class="price">$100,000</div>
@@ -196,160 +185,71 @@
             <li>Full-time access to professional climbers for coaching</li>
             <li>Access to Olympic level climbing classes</li>
             <li>Dedicated environment</li>
-            <li>Unlimited flights and hotel rooms covered for offsite climbing competition</li>
+            <li>
+              Unlimited flights and hotel rooms covered for offsite climbing
+              competition
+            </li>
           </ul>
         </div>
       </div>
     </div>
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div id="Classtime">
-
       <h2>Class Schedule</h2>
-
-
       <table class="table">
         <tbody>
-        <tr>
-          <th>Time</th>
-          <th>Monday</th>
-          <th>Tuesday</th>
-          <th>Wednesday</th>
-          <th>Thursday</th>
-          <th>Friday</th>
-          <th>Saturday</th>
-          <th>Sunday</th>
-        </tr>
-        <tr>
-          <td data-th="Time">
-            2:00
-          </td>
-          <td data-th="Monday">
-
-          </td>
-          <td data-th="Tuesday">
-            Beginner Lead Climbing
-          </td>
-          <td data-th="Wednesday">
-
-          </td>
-          <td data-th="Thursday">
-            Advanced Lead Climbing
-          </td>
-          <td data-th="Friday">
-            Bouldering 101
-          </td>
-          <td data-th="Saturday">
-
-          </td>
-          <td data-th="Sunday">
-
-          </td>
-        </tr>
-        <tr>
-          <td data-th="Time">
-            4:00
-          </td>
-          <td data-th="Monday">
-
-          </td>
-          <td data-th="Tuesday">
-
-          </td>
-          <td data-th="Wednesday">
-            Youth Coaching
-          </td>
-          <td data-th="Thursday">
-            Youth Coaching
-          </td>
-          <td data-th="Friday">
-            Beginner Lead Climbing
-          </td>
-          <td data-th="Saturday">
-            Bouldering 101
-          </td>
-          <td data-th="Sunday">
-            Bouldering 101
-          </td>
-        </tr>
-        <tr>
-          <td data-th="Time">
-            6:00
-          </td>
-          <td data-th="Monday">
-
-          </td>
-          <td data-th="Tuesday">
-            Advanced Lead Climbing
-          </td>
-          <td data-th="Wednesday">
-
-          </td>
-          <td data-th="Thursday">
-
-          </td>
-          <td data-th="Friday">
-
-          </td>
-          <td data-th="Saturday">
-
-          </td>
-          <td data-th="Sunday">
-
-          </td>
-        </tr>
-        <tr>
-          <td data-th="Time">
-            8:00
-          </td>
-          <td data-th="Monday">
-
-          </td>
-          <td data-th="Tuesday">
-            Olympics Preparation
-          </td>
-          <td data-th="Wednesday">
-            Olympics Preparation
-          </td>
-          <td data-th="Thursday">
-            Olympics Preparation
-          </td>
-          <td data-th="Friday">
-
-          </td>
-          <td data-th="Saturday">
-            Advanced Bouldering
-          </td>
-          <td data-th="Sunday">
-            Advanced Bouldering
-          </td>
-        </tr>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+          <tr>
+            <td data-th="Time">2:00</td>
+            <td data-th="Monday"></td>
+            <td data-th="Tuesday">Beginner Lead Climbing</td>
+            <td data-th="Wednesday"></td>
+            <td data-th="Thursday">Advanced Lead Climbing</td>
+            <td data-th="Friday">Bouldering 101</td>
+            <td data-th="Saturday"></td>
+            <td data-th="Sunday"></td>
+          </tr>
+          <tr>
+            <td data-th="Time">4:00</td>
+            <td data-th="Monday"></td>
+            <td data-th="Tuesday"></td>
+            <td data-th="Wednesday">Youth Coaching</td>
+            <td data-th="Thursday">Youth Coaching</td>
+            <td data-th="Friday">Beginner Lead Climbing</td>
+            <td data-th="Saturday">Bouldering 101</td>
+            <td data-th="Sunday">Bouldering 101</td>
+          </tr>
+          <tr>
+            <td data-th="Time">6:00</td>
+            <td data-th="Monday"></td>
+            <td data-th="Tuesday">Advanced Lead Climbing</td>
+            <td data-th="Wednesday"></td>
+            <td data-th="Thursday"></td>
+            <td data-th="Friday"></td>
+            <td data-th="Saturday"></td>
+            <td data-th="Sunday"></td>
+          </tr>
+          <tr>
+            <td data-th="Time">8:00</td>
+            <td data-th="Monday"></td>
+            <td data-th="Tuesday">Olympics Preparation</td>
+            <td data-th="Wednesday">Olympics Preparation</td>
+            <td data-th="Thursday">Olympics Preparation</td>
+            <td data-th="Friday"></td>
+            <td data-th="Saturday">Advanced Bouldering</td>
+            <td data-th="Sunday">Advanced Bouldering</td>
+          </tr>
         </tbody>
       </table>
     </div>
-
-
-
-
-
-
-
-
-
     <footer id="footer">
       <div id="address">
         <address>12-34 56th Dr.</address>
